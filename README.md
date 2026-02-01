@@ -5,6 +5,8 @@
 
 ## 能做什么？
 
+- 通过hook自动将一个typecho博客中发送的文章同步到另一个typecho博客的评论区中
+
 分别两个typecho博客上安装DiarySyncReceiver&DiarySyncSender，经过配置后（配置教程在下文），在安装 Sender 的博客上您每发送一篇文章就会在安装 Receiver 的博客的对应页面下同步发送一则以 Sender 博客发送内容为内容的评论。
 
 **即文章同步到评论** 
