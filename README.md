@@ -1,0 +1,2 @@
+# DiarySync
+适配handsome时光机功能，将一个typecho博客的文章同步到另一个typecho的某个页面下的评论区
