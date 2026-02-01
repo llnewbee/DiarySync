@@ -18,7 +18,7 @@ class DiarySyncSender_Plugin implements Typecho_Plugin_Interface
 
     public static function config(Typecho_Widget_Helper_Form $form)
     {
-        $apiUrl = new Typecho_Widget_Helper_Form_Element_Text('apiUrl', NULL, NULL, _t('主博客 API 地址'), _t('例如: https://www.ymhave.com/index.php/diary-sync-api'));
+        $apiUrl = new Typecho_Widget_Helper_Form_Element_Text('apiUrl', NULL, NULL, _t('主博客 API 地址'), _t('例如: https://www.example.com/index.php/diary-sync-api'));
         $form->addInput($apiUrl);
 
         $secretKey = new Typecho_Widget_Helper_Form_Element_Text('secretKey', NULL, NULL, _t('通信密钥'), _t('必须与主博客一致'));
